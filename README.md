@@ -12,9 +12,6 @@
 - Appel de fonction direct
 - Valeur de retour
 
-
-
-
 #### 2. Fonction sans paramètre mais avec return
 
 - Déclaration de fonction
