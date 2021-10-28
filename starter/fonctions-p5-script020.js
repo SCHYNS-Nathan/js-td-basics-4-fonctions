@@ -9,7 +9,15 @@ Déclarer la fonction calculateAge qui prend le paramètre birthYear
 Cette fonction retourne l'âge de la personne
 en calculant l'année courante moins son année de naissance
 */
-
+calculAge = (birthYear) => {
+    let today = new Date();
+    let iYear = today.getFullYear();
+    let iAge = iYear-birthYear;
+    console.log(`${iAge} ans.`);
+}
+calculAge(1990);
+calculAge(1948);
+calculAge(1969);
 
 
 /* 
@@ -41,7 +49,20 @@ Utiliser ensuite la fonction pour calculer dans cobien d'années seront pensionn
 	- Mike (né en 1948)
 	- Jane (née en 1969)
 */
-
-
+giveYearsUntilRetirement = (year,firstName) => {
+    let today = new Date();
+    let iYear = today.getFullYear();
+    let iAge = iYear-year;
+    let retirement = 65 - iAge;
+    if (retirement > 0) {
+        console.log(`${firstName} prendra sa pension dans ${retirement} ans.`);
+    }
+    else {
+        console.log(`${firstName} est déjà pensionné(e) !`)
+    }
+}
+giveYearsUntilRetirement(1990,"John");
+giveYearsUntilRetirement(1948, "Mike");
+giveYearsUntilRetirement(1969, "Jane");
 
 

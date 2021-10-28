@@ -13,8 +13,10 @@
   la fonction direBonjour qui affiche "Bonjour !" dans la console
 - Exécuter la fonction
 */
-
-
+function direBonjour() {
+    console.log("Hello")
+}
+direBonjour();
 
 
 
@@ -26,8 +28,12 @@
   la fonction disBonjour qui retourne la chaîne "Bonjour !"
 - L'utiliser pour afficher "Bonjour !" dans la console
 */
-
-
+function direBonjour() {
+    const sBonjour = "Bonjour !";
+    return(sBonjour);
+}
+direBonjour();
+console.log(sBonjour());
 
 
 

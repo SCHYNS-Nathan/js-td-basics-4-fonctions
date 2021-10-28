@@ -17,8 +17,11 @@
 
 // déclaration de la fonction
 
-
-
+function presenter(prenom, age) {
+    console.log(`Tu es ${prenom} et tu as ${age} ans.`);
+}
+presenter("Garance", 10);
+presenter(6, "Prosper");
 
 
 // appels de fonction avec passage de paramètres

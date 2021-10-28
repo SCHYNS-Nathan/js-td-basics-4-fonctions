@@ -15,8 +15,14 @@ et puis de déclarer une AUTRE fonction pour calculer le double de 24
 et puis de déclarer une AUTRE fonction pour calculer le double de 128
 etc. et ainsi de suite à chaque fois qu'on veut calculer le double d'un nouveau nombre
 */
-
-
+function double3() {
+    console.log(`Le double de 3 est ${3*2} !`);
+}
+double3();
+function double10() {
+    console.log(`Le double de 10 est ${10*2} !`);
+}
+double10();
 
 
 
@@ -46,11 +52,13 @@ le nombre dont on veut calculer le double
                      - le double de 24 ;
                      - le double de 128
 */
-
-
-
-
-
+function double(nombre) {
+    console.log(`Le double de ${nombre} est ${nombre*2}`);
+}
+double(2);
+double(10);
+double(24);
+double(128);
 
 
 

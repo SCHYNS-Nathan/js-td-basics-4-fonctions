@@ -35,8 +35,15 @@
 
 // 1°) Déclaration de la fonction avec paramètre
 
-
-
+function direBonjour(prénom) {
+    console.log(`Bonjour ${prénom} !`);
+    console.log(`Hello ${prénom} !`);
+    console.log(`Comment vas-tu ${prénom} ?`);
+    console.log(`Hey ${prénom} !`);
+    console.log(`Bonjourno ${prénom} !`);
+}
+direBonjour("Sophie");
+direBonjour("Baptiste");
 
 
 

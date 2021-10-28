@@ -16,4 +16,21 @@ pour différents cas de job :
     - Jane (designer)
     - Mark (retired)
 */
-
+whatDoYouDo = (job, firstName) => {
+    switch (job) {
+        case "teacher" :
+            console.log(`${firstName} teaches kid how to code.`);
+            break;
+        case "driver" :
+            console.log(`${firstName} drives a cab in Lisbon.`);
+            break;
+        case "designer" :
+            console.log(`${firstName} design beatiful websites.`);
+            break;
+        default :
+            console.log(`${firstName} does something else.`);
+    }
+}
+whatDoYouDo("teacher","John");
+whatDoYouDo("designer","Jane");
+whatDoYouDo("retired","Mark");

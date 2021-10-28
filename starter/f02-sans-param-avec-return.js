@@ -1,4 +1,4 @@
-/*****************************
+ /*****************************
 * 020 - Fonctions - Préalable
 */
 
@@ -45,13 +45,11 @@ EXERCICE :
     c) Lancer ce programme complété dans un navigateur expliquer
 */
 
-// 1°) Déclarer la fonction
+ function direBonjour() {
+     console.log("Bonjour !");
+     return;
+ }
+ let resultat = direBonjour();
+ console.log(resultat);
 
-
-
-// 2°) Exécuter la fonction
-
-
-
-// 3°) Valeur de retour de cette fonction
 

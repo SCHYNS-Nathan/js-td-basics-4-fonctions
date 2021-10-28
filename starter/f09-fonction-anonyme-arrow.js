@@ -17,9 +17,10 @@
 - Déclarer la fonction ci-dessus en utilisant la syntaxe "fat arrow function"
 - L'utiliser pour saluer Thomas dans la console
 */
-
-
-
+const sBonjour=(prenom)=> {
+    return(`Bonjour ${prenom} !`);
+}
+console.log(sBonjour("Thomas"));
 
 
 /*

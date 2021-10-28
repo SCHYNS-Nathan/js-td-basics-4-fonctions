@@ -25,8 +25,15 @@ Une variable globale est accessible de partout
 3. Appeler affiche2
 4. Expliquer ce qui se passe
 */
-
-
+function affiche1() {
+    let nbr1 = 2;
+}
+function affiche2() {
+    let nbr2 = 3;
+    console.log(`nbr2 = ${nbr2}`);
+    console.log(`nbr1 = ${nbr1}`);
+}
+affiche2();
 
 
 

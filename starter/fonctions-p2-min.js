@@ -12,16 +12,30 @@ N.B. Faites deux versions :
 	- en utilisant une arrow function
 */
 
-// synatxe classique
-
-
+// syntaxe classique
+function calcMin(nbr1, nbr2) {
+    if (nbr1 >= nbr2) {
+        console.log(nbr2)
+        return(nbr2);
+    }
+    else {
+        console.log(nbr1)
+        return(nbr1)
+    }
+}
+calcMin(4.5,5);
 
 // arrow function
-
-
+calcMin2 = (nbr1,nbr2) => {
+    if (nbr1 >= nbr2) {
+        console.log(nbr2)
+        return(nbr2);
+    }
+    else {
+        console.log(nbr1)
+        return(nbr1)
+    }
+}
+calcMin2(4.5, 5);
 
 // arrow function écriture encore plus concise
-
-
-
-

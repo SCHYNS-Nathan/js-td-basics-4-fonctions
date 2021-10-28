@@ -13,8 +13,13 @@
    a) "Baptiste"
    b) "Sophie"
 */
-
-
+function direBonjour(prenom) {
+    let message = `Bonjour ${prenom} !`;
+    console.log(message);
+    return(message);
+}
+direBonjour("Baptiste");
+direBonjour("Sophie");
 
 
 
